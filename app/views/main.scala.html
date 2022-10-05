@@ -1,0 +1,23 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>@title</title>
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/main.css")">
+    <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+
+    </head>
+    <body>
+        @content
+
+    <script src="@routes.Assets.versioned("javascripts/main.js")" type="text/javascript" defer="defer"></script>
+
+    <input id="message" type="text" />
+    <input id="open" type="button" value="sock::open" />
+    <input id="close" type="button" value="sock::close" />
+    <br />
+    <textarea id="log" rows="25" cols="80" readonly="readonly"></textarea>
+
+    </body>
+</html>

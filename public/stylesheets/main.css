@@ -1,0 +1,49 @@
+body {
+    background-color: #353531;
+    color: #EC4E20;
+    padding: 10px;
+}
+
+textarea {
+    background-color: transparent;
+    color: #FF9505;
+    border: 1px solid #FF9505;
+    font-size: 12px;
+    font-family: monospace;
+    padding: 10px;
+    margin-top: 11px;
+    border-radius: 9px;
+    outline: none;
+    resize: none;
+}
+
+input[type="text"]{
+    background-color: transparent;
+    color: #FF9505;
+    outline: none;
+    border: 1px solid #FF9505;
+    border-radius: 9px;
+    padding: 6px 10px 5px;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+input[type="button"]{
+    background-color: transparent;
+    color: #FF9505;
+    outline: none;
+    border: 1px solid #FF9505;
+    border-radius: 9px;
+    padding: 6px 10px 5px;
+    font-family: monospace;
+    font-size: 12px;
+    cursor: pointer;
+}
+input[type="button"]:hover {
+    background-color: #FF9505;
+    color: #353531;
+}
+input[type="button"]:active {
+    background-color: #EC4E20;
+    color: #353531;
+}

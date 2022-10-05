@@ -1,0 +1,1 @@
+Simple project that simply resumes the basic handling of WebSocket connections with PlayFramework and Akka.
